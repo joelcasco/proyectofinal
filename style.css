@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap');
+html{
+    font-size: 25px;
+}
+.logo{
+    width: 120px;
+    height: 120px;
+
+}
+header nav{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+header *{
+    list-style: none;
+    display: inline;
+    display: flex;
+    background-color: rgb(234, 234, 195);
+    
+}
+header li{
+    margin: 75px;
+    margin-top: 15px;
+    margin-bottom: 10px ;
+}
+header li a{
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+}
+/* main */
+.grid-fixed{
+    position: fixed;
+    bottom: 0;
+    right: 1%;
+}
+.grid-fixed img{
+    width: 65px;
+}
+.photo-grid-container{
+    width: 100%;
+    padding-top: 9%;
+}
+
+.photo-grid{
+    width: 100%;
+    background-color: blanchedalmond;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 1px;
+    margin: auto;
+}
+.photo{
+    width: 400px;
+    height: 400px;
+    margin: 3px auto;
+    border: 2px solid white; 
+}
+nav h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.uniform-sch{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr repeat(2, 0fr);
+    grid-column-gap: 1px;
+    grid-row-gap: 3px;
+    width: 100%;
+    
+    
+
+}
+.uniform{
+    width: 300px;
+    height: 340px;
+    margin: 2px;
+    border: 1px solid;
+}
+.icons{
+    width: 8%;
+  
+
+}
+/* Footer */
+p{
+    font-size: 1em;
+}
+footer{
+    background-color: antiquewhite;
+    width: 100%;
+}
+.footer-cointener-icons{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Catamaran', sans-serif;
+    background-color: aquamarine;
+}
+.footer-cointener-info{
+    margin: 25px;
+    
+}
+.footer-cointener-text{
+    margin: auto;
+    align-items: flex-start;
+    width: 100%;
+    padding-top: 13.5%;
+}
+.footer-cointener{
+    margin: 25px;
+    
+}
+
+.img {
+    width: 420px;
+}
+/* producto */
+.products-grid-img{
+   padding-top: 10%;
+}
+.products-img{
+    width: 100%;
+}
+.products-football{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 3px;
+    grid-row-gap: 3px;
+}
+.football{
+    width: 310px;
+    height: 300px;
+}
+/* nosotros */
+.cointener-grid-nosotros{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 8%;
+
+}
+.nosotros{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: bisque;
+}
+.dc{
+    width: 300px;
+
+}
+/* contacto */
+.cointener-grid-contacto{
+   
+    padding-top: 10%;
+    
+
+}
+.cointener-form-grid{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.products{
+    
+    display: flex;
+    justify-content: flex-start;
+}
+form{
+    display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: repeat(4, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 3px;
+}
+.grid-form{
+    display: flex;
+    justify-content: center;
+    margin: 3px;
+    padding-bottom: 8px;
+}
+.etiquetas-form{
+    display: block;
+    float: center;
+}
+.icons-2{
+    width: 6%;
+    height: 6%;
+}
+iframe{
+    width: 100%;
+}
