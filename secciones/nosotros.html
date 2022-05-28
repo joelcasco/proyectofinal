@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="../style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Ducazzi</title>
 </head>
 <body>
-    <header>
+    <header data-aos="zoom-in">
         <nav>
-            <a href=""><img src="images/ducazzi logo.jpg" alt="logo" class="logo"></a>
+            <a href="/index.html"><img src="/images/ducazzi logo.jpg" alt="logo" class="logo"></a>
             <ul class="links-home-grid">
                 <li>
                     <a href="../index.html">inicio</a>   
@@ -29,9 +30,8 @@
     </header>
     <main>
         <section class="grid-fixed">
-            <div>
+            <div data-aos="zoom-out-left">
                 <a href="https://wa.me/c/5491160386381"><img src="images/whatsapp-2.png" alt=""></a>
-               
             </div>
         </section>
         <section class="cointener-grid-nosotros">
@@ -47,13 +47,14 @@
     <footer>
         <section class="footer-cointener-icons">
             <div class="footer-cointener-info">
-                <p>Ducazzi</p>
-                <p>
+                <p data-aos="fade-right">Ducazzi</p>
+                <p data-aos="fade-right">
                somos una empresa de indumentaria, fabricante de ropa deportiva,Primerísimo nivel de materiales, amplia gama de artículos y marcada responsabilidad social empresarial.
                 </p>
             </div>
             <div class="footer-cointener-text">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, voluptatum.</p>
+                <p data-aos="fade-up"
+                data-aos-duration="30">Nos encontramos en Av. 1 de Mayo 5476, B1650 Villa Lynch, Provincia de Buenos Aires. Nuestro horario de atencion es de 8hs a 18hs</p>
             </div>
             <div class="footer-cointener">
                 <h3>contactanos</h3>
@@ -66,4 +67,8 @@
         </section >
         
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
