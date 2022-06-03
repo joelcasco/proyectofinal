@@ -6,50 +6,118 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Ducazzi</title>
 </head>
 <body>
     <header data-aos="zoom-in">
-        <nav class="menu">     
-           <a href="/index.html"><img src="/images/ducazzi logo.jpg" alt="logo" class="logo"></a>
-           <ul class="links-home-grid">
-               <li>
-                   <a href="../index.html">inicio</a>   
-               </li>
-               <li>
-                   <a href="secciones/productos.html">productos</a>
-               </li>
-               <li>
-                   <a href="../secciones/contacto.html">contacto</a>       
-               </li>
-               <li>
-                   <a href="../secciones/nosotros.html">nosotros</a>
-               </li>
-           </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="grid-fixed">
-            <div data-aos="zoom-out-left">
-                <a href="https://wa.me/c/5491160386381"><img src="/images/whatsapp-2.png" alt=""></a>
+        <section class="container container-fluid bg-success d-flex justify-content-center">
+            <div class="row" >
+              <img src="/images/ducazzi logo.jpg" alt="logo" class="col-6 w-100 logo" >
             </div>
-        </section>
-        <section class="products-grid-img">
-            <nav class="products-grid">
-                <div class="products-football">
-                    <img src="/images/productos-1.jpeg" alt="" class="football">
-                    <img src="/images/productos-2.jpeg" alt="" class="football">
-                    <img src="/images/productos-3.jpeg" alt="" class="football">
-                    <img src="/images/productos-4.jpeg" alt="" class="football">
-                    <img src="/images/productos-5.jpeg" alt="" class="football">
-                    <img src="/images/productos-6.jpeg" alt="" class="football">
-                    <img src="/images/productos-7.jpeg" alt="" class="football">
-                    <img src="/images/productos-8.jpeg" alt="" class="football">
+            <p class="text-light mb-0 p-2 fs-6 col-6 text-center">Contactanos 11 6038-6381</p>
+          </section>  
+            <section class="container d-flex justify-content-center w-100">
+              <div class="row w-100">
+                <nav class="navbar navbar-expand-lg bg-light p-3 col-12 w-100" id="menu d-flex justify-content-center aling-item-center">
+                  <div class="container-fluid">
+                    <a class="navbar-brand" href="/index.html">
+                      <span class="fs-5 fw-bold text-success">Ducazzi</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="/secciones/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="/secciones/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="/secciones/contacto.html">Contacto</a>
+                        </li>
+                      <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                      </form>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </section>
+            <section class="grid-fixed">
+              <div data-aos="zoom-out-left">
+                  <a href="https://wa.me/c/5491160386381"><img src="images/whatsapp-2.png" alt=""></a>
+              </div>
+          </section>
+    </header>
+    <main class="container">
+        <section class="row d-flex">
+            <nav class="col d-flex justify-content-center">
+                <div class="card m-1" style="width: 13rem;">
+                    <img src="/images/productos-1.jpeg" class="card-img-top" alt="imagen">
+                    <div class="card-body">
+                        <nav>
+                            <a href="#" class="btn btn-outline-success">consultar</a>
+                        </nav>
+                    </div>
                 </div>
-                              
-              
-            </nav> 
-        </section>
+                <div class="card m-1" style="width: 13rem;">
+                    <img src="/images/productos-3.jpeg" class="card-img-top" alt="imagen">
+                    <div class="card-body">
+                        <nav>
+                            <a href="#" class="btn btn-outline-success">consultar</a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="card m-1" style="width: 13rem;">
+                    <img src="/images/productos-4.jpeg" class="card-img-top" alt="imagen">
+                    <div class="card-body">
+                        <nav>
+                            <a href="#" class="btn btn-outline-success">consultar</a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="card m-1" style="width: 13rem;">
+                    <img src="/images/productos-5.jpeg" class="card-img-top" alt="imagen">
+                    <div class="card-body">
+                        <nav>
+                            <a href="#" class="btn btn-outline-success">consultar</a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="card m-1" style="width: 13rem;">
+                    <img src="/images/productos-6.jpeg" class="card-img-top" alt="imagen">
+                    <div class="card-body">
+                        <nav>
+                            <a href="#" class="btn btn-outline-success">consultar</a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="card m-1" style="width: 13rem;">
+                    <img src="/images/productos-7.jpeg" class="card-img-top" alt="imagen">
+                    <div class="card-body">
+                        <nav>
+                            <a href="#" class="btn btn-outline-success">consultar</a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="card m-1" style="width: 13rem;">
+                    <img src="/images/productos-8.jpeg" class="card-img-top" alt="imagen">
+                    <div class="card-body">
+                        <nav>
+                            <a href="#" class="btn btn-outline-success">consultar</a>
+                        </nav>
+                    </div>
+                </div>   
+            </nav>
+            
+        </section> 
     </main>
     <footer>
         <section class="footer-cointener-icons">
@@ -66,9 +134,9 @@
             <div class="footer-cointener">
                 <h3>contactanos</h3>
             <nav class="cointener-icons">
-               <a href="https://www.instagram.com/indumentariaduccazzi/?hl=es-la"><img src="images/instagram.png" alt="logo instagram" class="icons"></a>
-               <a href="https://wa.me/c/5491160386381"><img src="images/whatsapp.png" alt="logo de aplicacion" class="icons"></a>
-               <a href="https://www.facebook.com/Indumentaria-duccazzi-135021622049909"><img src="images/facebook.png" alt="logo de app" class="icons"></a>
+               <a href="https://www.instagram.com/indumentariaduccazzi/?hl=es-la"><img src="/images/instagram.png" alt="logo instagram" class="icons"></a>
+               <a href="https://wa.me/c/5491160386381"><img src="/images/whatsapp.png" alt="logo de aplicacion" class="icons"></a>
+               <a href="https://www.facebook.com/Indumentaria-duccazzi-135021622049909"><img src="/images/facebook.png" alt="logo de app" class="icons"></a>
             </nav>
             </div>
         </section >
