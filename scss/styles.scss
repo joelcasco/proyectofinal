@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap');
+$color-footer: black;
+$h2-alineacion: display flex justify-content center;
+$icons-medida: 2rem;
+
+/* nesting */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+/* main */
+main{
+    .grid-fixed{
+        position: fixed;
+        right: .2rem;
+        bottom: 3rem;
+        img{
+            width: 2.5rem;
+        }
+    }
+    .portada{
+        width: 38.75rem;
+        height: 37.5rem;
+    }
+    h2 {
+        display: flex;
+        justify-content: center;
+    }
+}
+/* Footer */
+footer{
+    background-color: $color-footer;
+    font-family: 'Catamaran', sans-serif;
+    .icons{
+        width: $icons-medida;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .footer-cointener-icons{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-family: 'Catamaran', sans-serif;
+        font-size: 0.9em;
+    }
+    .footer-cointener-info{
+        margin: 1.5rem;
+        p{
+            text-align: start;
+        }
+    }
+    .footer-cointener{
+        margin: 1.5rem;
+        text-align: center;
+    }
+    .footer-cointener-text{
+        margin: 1.5rem;
+        align-items: flex-start;
+        width: 90%;
+    }
+    .text-info{
+        color: #fff;
+        text-align: center;
+    }
+}
+
+/* producto */
+
+.products-img{
+    width: 80%;
+}
+
+/* nosotros */
+.conteiner-nosotros{
+    .nosotros-info{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .text{
+        margin: .2rem;
+    }
+    .logo{
+        width: 2.5rem;
+        height: 5rem;
+        margin: .2rem;
+    }
+}
+
+/* contacto */
+.conteiner-contacto {
+    .icons-2{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .contact{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .container-form{
+        display: block;
+    }
+    .form{
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        margin: 1.5rem;
+        .etiquetas-form{
+            display: block;
+            float: center;}   
+    }
+    iframe{
+        width: 100%;
+    }
+}
+
+@media (max-width: 900px){
+    .menu{
+        display: block;
+    }
+    .icons{
+        width: 2rem ;
+    }
+    p{
+        font-size: .8rem;
+    }
+    .grid-fixed{
+        position: fixed;
+        right: 1.7rem;
+        bottom: 3.6rem;
+        img{
+            width: 2.5rem;
+        }
+    }
+}
+

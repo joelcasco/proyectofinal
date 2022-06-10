@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap");
+/* nesting */
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden; }
+
+/* main */
+main .grid-fixed {
+  position: fixed;
+  right: .2rem;
+  bottom: 3rem; }
+  main .grid-fixed img {
+    width: 2.5rem; }
+
+main .portada {
+  width: 38.75rem;
+  height: 37.5rem; }
+
+main h2 {
+  display: flex;
+  justify-content: center; }
+
+/* Footer */
+footer {
+  background-color: black;
+  font-family: 'Catamaran', sans-serif; }
+  footer .icons {
+    width: 2rem; }
+  footer p {
+    font-size: 1rem; }
+  footer .footer-cointener-icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 0.9em; }
+  footer .footer-cointener-info {
+    margin: 1.5rem; }
+    footer .footer-cointener-info p {
+      text-align: start; }
+  footer .footer-cointener {
+    margin: 1.5rem;
+    text-align: center; }
+  footer .footer-cointener-text {
+    margin: 1.5rem;
+    align-items: flex-start;
+    width: 90%; }
+  footer .text-info {
+    color: #fff;
+    text-align: center; }
+
+/* producto */
+.products-img {
+  width: 80%; }
+
+/* nosotros */
+.conteiner-nosotros .nosotros-info {
+  display: flex;
+  justify-content: center;
+  width: 100%; }
+
+.conteiner-nosotros .text {
+  margin: .2rem; }
+
+.conteiner-nosotros .logo {
+  width: 2.5rem;
+  height: 5rem;
+  margin: .2rem; }
+
+/* contacto */
+.conteiner-contacto .icons-2 {
+  width: 2.5rem;
+  height: 2.5rem; }
+
+.conteiner-contacto .contact {
+  display: flex;
+  justify-content: flex-start; }
+
+.conteiner-contacto .container-form {
+  display: block; }
+
+.conteiner-contacto .form {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  margin: 1.5rem; }
+  .conteiner-contacto .form .etiquetas-form {
+    display: block;
+    float: center; }
+
+.conteiner-contacto iframe {
+  width: 100%; }
+
+@media (max-width: 900px) {
+  .menu {
+    display: block; }
+  .icons {
+    width: 2rem; }
+  p {
+    font-size: .8rem; }
+  .grid-fixed {
+    position: fixed;
+    right: 1.7rem;
+    bottom: 3.6rem; }
+    .grid-fixed img {
+      width: 2.5rem; } }
