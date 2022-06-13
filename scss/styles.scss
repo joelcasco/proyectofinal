@@ -4,6 +4,9 @@
 $color-footer: black;
 $h2-alineacion: display flex justify-content center;
 $icons-medida: 2rem;
+$card-spacer-y: 1rem;
+$card-spacer-x: 1rem;
+$border: solid thick black;
 
 /* nesting */
 
@@ -33,38 +36,40 @@ main{
 }
 /* Footer */
 footer{
-    background-color: $color-footer;
     font-family: 'Catamaran', sans-serif;
+    border-top: $border;
     .icons{
         width: $icons-medida;
     }
     p{
         font-size: 1rem;
     }
-    .footer-cointener-icons{
+    .footer-container-icons{
         width: 100%;
         display: flex;
         justify-content: center;
         font-family: 'Catamaran', sans-serif;
         font-size: 0.9em;
     }
-    .footer-cointener-info{
+    .footer-container-info{
         margin: 1.5rem;
         p{
             text-align: start;
         }
+        border-right: $border;
     }
-    .footer-cointener{
+    .footer-container{
         margin: 1.5rem;
         text-align: center;
     }
-    .footer-cointener-text{
+    .footer-container-text{
         margin: 1.5rem;
         align-items: flex-start;
         width: 90%;
+        border-bottom: $border;
     }
     .text-info{
-        color: #fff;
+        color: rgb(8, 7, 7);
         text-align: center;
     }
 }
@@ -74,7 +79,23 @@ footer{
 .products-img{
     width: 80%;
 }
+.coins {
+    width: 32px;
+}
+.container-numbers{
+    width: 2rem;
+}
+.numbers{
+    width: 1rem;
+}
 
+
+.btn-group-sm>.btn, .btn-sm {
+    --bs-btn-padding-y: 0.2rem;
+    --bs-btn-padding-x: 0.4rem;
+    --bs-btn-font-size: 0.875rem;
+    --bs-btn-border-radius: 0.25rem;
+}
 /* nosotros */
 .conteiner-nosotros{
     .nosotros-info{
@@ -137,5 +158,28 @@ footer{
             width: 2.5rem;
         }
     }
-}
+    .footer-container-icons{
+        display: flex;
+        flex-direction: column-reverse;
+        .footer-container-info{
+            border: none;
+            border-top: $border;
+        }
+        .footer-container-info{
+            border-bottom: $border;
+            .text-info-title{
+                text-align: center;
+            }
+        }
+    }
+    .col {
+        flex: 1 0 0%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+    }
 
+    
+
+}
