@@ -1,0 +1,18 @@
+main{
+    .grid-fixed{
+        position: fixed;
+        right: .2rem;
+        bottom: 3rem;
+        img{
+            width: 2.5rem;
+        }
+    }
+    .portada{
+        width: 38.75rem;
+        height: 37.5rem;
+    }
+    h2 {
+        display: flex;
+        justify-content: center;
+    } 
+}

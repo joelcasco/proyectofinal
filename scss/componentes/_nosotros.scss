@@ -1,0 +1,16 @@
+@import '../base/mixins';
+
+.conteiner-nosotros{
+    .nosotros-info{
+        @include varios(flex, center);
+        width: 100%;
+    }
+    .text{
+        margin: .2rem;
+    }
+    .logo{
+        width: 2.5rem;
+        height: 5rem;
+        margin: .2rem;
+    }
+}

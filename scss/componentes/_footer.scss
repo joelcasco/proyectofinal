@@ -1,0 +1,40 @@
+@import '../base/variables';
+@import '../base/extends';
+@import '../base/mixins';
+footer{
+    font-family: 'Catamaran', sans-serif;
+    @extend %bordes;
+    .icons{
+        width: $icons-medida;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .footer-container-icons{
+        width: 100%;
+        @include varios(flex, center);
+        font-family: 'Catamaran', sans-serif;
+        font-size: 0.9em;
+    }
+    .footer-container-info{
+        margin: 1.5rem;
+        p{
+            text-align: start;
+        }
+        border-right: $border;
+    }
+    .footer-container{
+        margin: 1.5rem;
+        text-align: center;
+    }
+    .footer-container-text{
+        margin: 1.5rem;
+        align-items: flex-start;
+        width: 90%;
+        border-bottom: $border;
+    }
+    .text-info{
+        color: rgb(8, 7, 7) !important;
+        text-align: center;
+    }
+}

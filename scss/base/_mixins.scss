@@ -1,0 +1,4 @@
+@mixin varios ($display, $alineacion){
+    display: $display;
+    justify-content: $alineacion;
+}

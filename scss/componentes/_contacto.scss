@@ -1,0 +1,27 @@
+@import '../base/mixins';
+.conteiner-contacto {
+    .icons-2{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .contact{
+        @include varios(flex, flex start);
+    }
+    .container-form{
+        display: block;
+    }
+    .form{
+        width: 100%;
+        @include varios(grid, center);
+        padding: 1rem;
+        .etiquetas-form{
+            display: block;
+            float: center;} 
+        input{
+            width: 22.3rem;
+        }  
+    }
+    iframe{
+        width: 100%;
+    }
+}
