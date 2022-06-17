@@ -1,0 +1,8 @@
+Aclaraciones
+agregue las meta tag de desc y keyw en todos los html, use la misma descripcion para todos y los keywords los cambie un poco.
+agregue la meta de author y la de copy que nose si lo hice bien.
+agregue el protocolo open graph, use la misma descripcion
+y en los  tittle de cada html agregue un tittle diferente.
+Imagenes:
+solomante los iconos los cambie a svg
+y las imagenes de los productos de la ropa de colegio y de las ultimas imagenes de los buzos los cambie a webp. No pude pasar todos a webp porque solo se pueden 10 por dia jaja
