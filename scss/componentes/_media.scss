@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap');
+@import 'base/variables';
+@media (max-width: 900px){
+    .menu{
+        display: block;
+    }
+    .icons{
+        width: 2rem ;
+    }
+    p{
+        font-size: .8rem;
+    }
+    .grid-fixed{
+        position: fixed;
+        right: 1.7rem;
+        bottom: 3.6rem;
+        img{
+            width: 2.5rem;
+        }
+    }
+    .footer-container-icons{
+        display: flex;
+        flex-direction: column-reverse;
+        .footer-container-info{
+            border: none;
+            border-top: $border;
+        }
+        .footer-container-info{
+            border-bottom: $border;
+            .text-info-title{
+                text-align: center;
+            }
+        }
+    }
+    .col {
+        flex: 1 0 0%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    .form{
+        justify-items: start;
+    }
+
+}

@@ -6,6 +6,7 @@
     }
     .contact{
         @include varios(flex, flex start);
+        padding-left: 1.5rem;
     }
     .container-form{
         display: block;
@@ -19,7 +20,10 @@
             float: center;} 
         input{
             width: 22.3rem;
-        }  
+        }
+        .submit{
+            margin-top: .3rem;
+        }   
     }
     iframe{
         width: 100%;
