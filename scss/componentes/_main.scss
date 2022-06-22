@@ -2,7 +2,9 @@ body{
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
     main{
-    
+        .carousel-2{
+            margin-bottom: 2rem;
+        }
         .grid-fixed{
             position: fixed;
             right: .2rem;

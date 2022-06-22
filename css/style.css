@@ -10,6 +10,8 @@
 body {
   font-family: 'Montserrat', sans-serif;
   overflow-x: hidden; }
+  body main .carousel-2 {
+    margin-bottom: 2rem; }
   body main .grid-fixed {
     position: fixed;
     right: .2rem;
