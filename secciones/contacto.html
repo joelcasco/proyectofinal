@@ -27,7 +27,7 @@
           </section>  
             <section class="container d-flex justify-content-center w-100">
               <div class="row w-100">
-                <nav class="navbar navbar-expand-lg bg-light p-3 col-12 w-100" id="menu d-flex justify-content-center aling-item-center">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3 col-12 w-100" id="menu d-flex justify-content-center aling-item-center">
                   <div class="container-fluid">
                     <a class="navbar-brand" href="../index.html">
                       <span class="fs-5 fw-bold text-success">Ducazzi</span>
@@ -65,39 +65,39 @@
                 <a href="https://wa.me/c/5491160386381"><img src="../images/whatsapp-2.webp" alt="icono de whatsapp"></a>
             </div>
         </section>
-        <section class="conteiner-contacto">
-            <div class="contact">
+        <section class="container-contacto">
+          <h1 data-aos="flip-up">Contactanos</h1>
+            <div class="contact" data-aos="fade-right">
                 <img src="/images/telephone-svg.svg" alt="logo de phone" class="icons-2">
                 <p>+54 9 11 6038-6381<p>
                 </div>
-                <div class="contact"> 
+                <div class="contact" data-aos="fade-right"> 
                     <img src="/images/email-svg.svg" alt="logo de mail" class="icons-2">
                     <p>Franco.110@outlook.es</p>
                 </div>
             <div class="container-form">
                 <div class="form">
                   <h2 class="form-title">Formulario de Contacto</h2>
-                    <form action="">
+                    <form action='form.php' method="POST">
                         <div class="grid-form">
                           <label for="nombre" class="etiquetas-form">ingrese su nombre</label>
-                          <input type="text" placeholder="Escribe tu nombre" id="nombre">
+                          <input type="text" placeholder="Escribe tu nombre" id="nombre" name="name">
                         </div>
                         <div class="grid-form">
                           <label for="telefono" class="etiquetas-form">ingrese su telefono</label>
-                          <input type="text" placeholder="Escribe tu telefono" id="telefono">
+                          <input type="text" placeholder="Escribe tu telefono" id="telefono" name="telefono">
                         </div>
                         <div class="grid-form">
                           <label for="email" class="etiquetas-form">ingrese su email  </label>
-                          <input type="email" placeholder="Escribe tu email" id="email">
+                          <input type="email" placeholder="Escribe tu email" id="email" name="email">
                         </div>
                         <div class="grid-form">
                           <label for="mensaje" class="etiquetas-form">ingrese su mensaje</label>
-                          <input type="text" placeholder="Deje aqui tu comentario" id="mensaje">
+                          <textarea name="textarea" id="mensaje" placeholder="deje aqui tu comentario" cols="29" rows="3"></textarea>
                         </div>
                         <button type="button" class="btn btn-dark submit">Enviar</button>
                     </form>
                 </div>
-               
                 <div>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.658537056246!2d-58.55506508517706!3d-34.587505664146676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7803d174775%3A0xd46c573f7b886789!2s1%C2%B0%20de%20Mayo%205476%2C%20B1650%20Villa%20Lynch%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1651445423779!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="mapa del local"></iframe> 
                 </div>

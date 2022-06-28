@@ -1,23 +1,32 @@
-.products-img{
-    width: 80%;
-}
-.coins {
-    width: 32px;
-}
-.container-numbers{
-    width: 2rem;
-}
-.numbers{
-    width: 1rem;
-}
-.conteiner-card{
+.inicio-productos{
     display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-}
-.btn-group-sm>.btn, .btn-sm {
-    --bs-btn-padding-y: 0.2rem;
-    --bs-btn-padding-x: 0.4rem;
-    --bs-btn-font-size: 0.875rem;
-    --bs-btn-border-radius: 0.25rem;
+    .accordion-products{
+        margin: 1rem;
+    }
+    .filtros-products{
+        border-radius: 10px;
+        box-shadow: -6px 6px 17px #c2b8b8, 6px -6px 17px #ecdfdf;
+        height: fit-content;    
+    }
+    h1{
+        border-bottom: solid 2px $verde;
+        width: 80%;
+    }
+    h2{
+        @include varios(flex, center);
+    }
+    .products-img{
+        width: 80%;
+    }
+    
+    .conteiner-card{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .buy{
+        button{
+            width: 1.5rem;
+        }
+    }
 }

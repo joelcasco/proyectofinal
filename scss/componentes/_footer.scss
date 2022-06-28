@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap');
 @import '../base/variables';
 @import '../base/extends';
 @import '../base/mixins';
+
 footer{
     font-family: 'Catamaran', sans-serif;
     background-color: #23F577;
@@ -12,7 +12,7 @@ footer{
         width: $icons-medida;
     }
     p{
-        font-size: 1rem;
+        font-size: 1.2em;
     }
     .footer-container-icons{
         width: 100%;
@@ -25,7 +25,7 @@ footer{
         p{
             text-align: start;
         }
-        border-right: $border;
+        border-right: .2rem solid black;
     }
     .footer-container{
         margin: 1.5rem;
@@ -42,8 +42,5 @@ footer{
     .text-info{
         color: rgb(8, 7, 7) !important;
         text-align: center;
-    }
-    .disclaimer{
-        display: none !important;
     }
 }
