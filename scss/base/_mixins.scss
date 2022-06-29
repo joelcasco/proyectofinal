@@ -1,4 +1,11 @@
-@mixin varios ($display, $alineacion){
+@mixin varios ($display, $content){
     display: $display;
-    justify-content: $alineacion;
+    justify-content: $content;
+}
+@mixin icons ($widht, $height){
+    width: $widht;
+    height: $height;
+}
+@mixin btn ($widht){
+    width: $widht;
 }

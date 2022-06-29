@@ -8,6 +8,40 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap");
+footer {
+  border-top: solid thick black; }
+
+body main .inicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+body main .inicio {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.inicio-productos .filtros-products {
+  box-shadow: -6px 6px 17px #c2b8b8, 6px -6px 17px #ecdfdf; }
+
+footer {
+  border-top: solid thick black; }
+
+body main .inicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+body main .inicio {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.inicio-productos .filtros-products {
+  box-shadow: -6px 6px 17px #c2b8b8, 6px -6px 17px #ecdfdf; }
+
 body {
   font-family: 'Montserrat', sans-serif;
   overflow-x: hidden; }
@@ -15,21 +49,14 @@ body {
     background-color: #212529; }
   body main .inicio {
     font-family: 'Bebas Neue', cursive;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     height: 40rem;
     width: 100%;
-    background-image: url(/images/foto-3.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; }
+    background-image: url(/images/foto-3.webp); }
     body main .inicio span {
       color: #ff2600; }
     body main .inicio h1 {
       font-size: 4.5em;
-      color: #efecfc; }
+      color: aliceblue; }
     body main .inicio h2 {
       font-size: 4em;
       color: aliceblue; }
@@ -59,36 +86,47 @@ body {
 footer {
   border-top: solid thick black; }
 
+body main .inicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+body main .inicio {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.inicio-productos .filtros-products {
+  box-shadow: -6px 6px 17px #c2b8b8, 6px -6px 17px #ecdfdf; }
+
 footer {
   font-family: 'Catamaran', sans-serif;
   background-color: #23F577; }
-  footer .icons {
-    width: 2rem; }
-  footer p {
-    font-size: 1.2em; }
   footer .footer-container-icons {
     width: 100%;
     display: flex;
     justify-content: center;
     font-family: 'Catamaran', sans-serif;
-    font-size: 0.8em; }
-  footer .footer-container-info {
-    margin: 1.5rem;
-    border-right: .2rem solid black; }
-    footer .footer-container-info p {
-      text-align: start; }
-  footer .footer-container {
-    margin: 1.5rem;
-    text-align: center; }
-  footer .container-icons {
-    display: flex;
-    justify-content: center; }
+    font-size: 0.9em; }
+    footer .footer-container-icons .footer-container-info {
+      margin: 1.5rem;
+      border-right: 0.2rem solid black; }
+      footer .footer-container-icons .footer-container-info p {
+        text-align: start; }
+    footer .footer-container-icons .footer-container {
+      margin: 1.5rem;
+      text-align: center; }
+    footer .footer-container-icons .container-icons {
+      display: flex;
+      justify-content: center; }
+      footer .footer-container-icons .container-icons .icons {
+        width: 2rem; }
   footer .footer-container-text {
     margin: 1.5rem;
-    align-items: flex-start;
-    border-bottom: solid thick black; }
+    align-items: flex-start; }
   footer .text-info {
-    color: #080707 !important;
+    color: black !important;
     text-align: center; }
 
 .inicio-productos {
@@ -97,7 +135,6 @@ footer {
     margin: 1rem; }
   .inicio-productos .filtros-products {
     border-radius: 10px;
-    box-shadow: -6px 6px 17px #c2b8b8, 6px -6px 17px #ecdfdf;
     height: fit-content; }
   .inicio-productos h1 {
     border-bottom: solid 2px #198754;
@@ -131,8 +168,7 @@ footer {
     font-size: large; }
 
 .nosotros .conteiner-nosotros .logo {
-  width: 2.5rem;
-  height: 5rem;
+  width: 10%;
   margin: .2rem; }
 
 .container-contacto h1 {
@@ -213,6 +249,12 @@ footer {
     flex-direction: column;
     align-items: center;
     margin-left: 0rem !important; }
+  form input {
+    width: 15rem !important; }
+  form .submit {
+    width: 15rem !important; }
+  .submit {
+    width: 15rem !important; }
   .inicio-productos {
     display: flex;
     flex-direction: column; } }

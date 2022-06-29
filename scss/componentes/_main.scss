@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import '../base/mixins';
+@import '../base/extends';
 body{
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
@@ -16,22 +17,17 @@ body{
             }
             h1{
                 font-size: 4.5em;
-                color: rgb(239, 236, 252);
+                color: aliceblue;
             }
             h2{
                 font-size: 4em;
                 color: aliceblue;
             }
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+            @extend %flex;
             height: 40rem;
             width: 100%;
             background-image: url(/images/foto-3.webp);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center ;
+            @extend %background;
         }
         .container-destacados{
             h2{
@@ -45,8 +41,6 @@ body{
                 }
             }
         }
-        
-       
         .carousel-second{
             margin-bottom: 2rem;
         }
@@ -62,8 +56,6 @@ body{
             width: 38.75rem;
             height: 37.5rem;
         }
-        
-
     }
 }
 .disclaimer{

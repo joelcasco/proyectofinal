@@ -27,17 +27,17 @@
             flex-direction: column-reverse;
             .footer-container-info{
                 border: none;
-                border-top: $border;
+                border-top: solid thick $color-footer;
             }
             .footer-container-info{
-                border-bottom: $border;
+                border-bottom: solid thick $color-footer;
                 .text-info-title{
                     text-align: center;
                 }
             }
         }
     }
-    .col {
+    .col{
         flex: 1 0 0%;
         display: flex;
         flex-direction: column;
@@ -56,6 +56,17 @@
         flex-direction: column;
         align-items: center;
         margin-left: 0rem !important;
+    }
+    form{
+        input{
+            @include btn(15rem !important);
+        }
+        .submit{
+            @include btn(15rem !important);
+        }
+    }
+    .submit{
+        @include btn(15rem !important);
     }
     .inicio-productos{
         display: flex;

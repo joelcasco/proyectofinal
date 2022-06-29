@@ -8,39 +8,35 @@ footer{
     font-family: 'Catamaran', sans-serif;
     background-color: #23F577;
     @extend %bordes;
-    .icons{
-        width: $icons-medida;
-    }
-    p{
-        font-size: 1.2em;
-    }
     .footer-container-icons{
         width: 100%;
         @include varios(flex, center);
         font-family: 'Catamaran', sans-serif;
-        font-size: 0.8em;
-    }
-    .footer-container-info{
-        margin: 1.5rem;
-        p{
-            text-align: start;
+        font-size: 0.9em;
+        .footer-container-info{
+            margin: 1.5rem;
+            p{
+                text-align: start;
+            }
+            border-right: .2rem solid $color-footer;
         }
-        border-right: .2rem solid black;
-    }
-    .footer-container{
-        margin: 1.5rem;
-        text-align: center;
-    }
-    .container-icons{
-        @include varios(flex, center);
-    }
+        .footer-container{
+            margin: 1.5rem;
+            text-align: center;
+        }
+        .container-icons{
+            @include varios(flex, center);
+            .icons{
+                width: $icons-medida;
+            }
+        }      
+    }   
     .footer-container-text{
         margin: 1.5rem;
         align-items: flex-start;
-        border-bottom: $border;
     }
     .text-info{
-        color: rgb(8, 7, 7) !important;
+        color: $color-footer !important;
         text-align: center;
     }
 }

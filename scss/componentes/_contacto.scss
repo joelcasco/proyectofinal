@@ -6,8 +6,7 @@
         width: 80%;  
     }
     .icons-2{
-        width: 2.5rem;
-        height: 2.5rem;
+        @include icons(2.5rem, 2.5rem);
     }
     .contact{
         @include varios(flex, flex start);
@@ -23,17 +22,15 @@
         .etiquetas-form{
             display: block;
             float: center;
-          
         } 
         input{
-            width: 70%;
+            @include btn(70%);
             font-size: revert !important;
-
         }
         .submit{
             margin-top: .3rem;
             cursor: pointer;
-            width: 70%;
+            @include btn(70%);
             font-size: revert !important;
         }   
     }
