@@ -26,6 +26,9 @@ body main .inicio {
   box-shadow: -6px 6px 17px #c2b8b8, 6px -6px 17px #ecdfdf; }
 
 footer {
+  margin-top: 2rem; }
+
+footer {
   border-top: solid thick black; }
 
 body main .inicio {
@@ -42,6 +45,9 @@ body main .inicio {
 .inicio-productos .filtros-products {
   box-shadow: -6px 6px 17px #c2b8b8, 6px -6px 17px #ecdfdf; }
 
+footer {
+  margin-top: 2rem; }
+
 body {
   font-family: 'Montserrat', sans-serif;
   overflow-x: hidden; }
@@ -51,7 +57,7 @@ body {
     font-family: 'Bebas Neue', cursive;
     height: 40rem;
     width: 100%;
-    background-image: url(/images/foto-3.webp); }
+    background-image: url(../images/foto-3.webp); }
     body main .inicio span {
       color: #ff2600; }
     body main .inicio h1 {
@@ -68,17 +74,18 @@ body {
     body main .container-destacados .destacados .ropa {
       width: 8.875rem;
       height: 8.5rem; }
-  body main .carousel-second {
-    margin-bottom: 2rem; }
+  body main .carousel-portada h2 {
+    display: flex;
+    justify-content: center; }
+  body main .carousel-portada .portada {
+    width: 38.75rem;
+    height: 37.5rem; }
   body main .grid-fixed {
     position: fixed;
     right: .2rem;
     bottom: 3rem; }
     body main .grid-fixed img {
       width: 2.5rem; }
-  body main .portada {
-    width: 38.75rem;
-    height: 37.5rem; }
 
 .disclaimer {
   display: none !important; }
@@ -99,6 +106,9 @@ body main .inicio {
 
 .inicio-productos .filtros-products {
   box-shadow: -6px 6px 17px #c2b8b8, 6px -6px 17px #ecdfdf; }
+
+footer {
+  margin-top: 2rem; }
 
 footer {
   font-family: 'Catamaran', sans-serif;
@@ -129,6 +139,26 @@ footer {
     color: black !important;
     text-align: center; }
 
+footer {
+  border-top: solid thick black; }
+
+body main .inicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+body main .inicio {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.inicio-productos .filtros-products {
+  box-shadow: -6px 6px 17px #c2b8b8, 6px -6px 17px #ecdfdf; }
+
+footer {
+  margin-top: 2rem; }
+
 .inicio-productos {
   display: flex; }
   .inicio-productos .accordion-products {
@@ -155,58 +185,77 @@ footer {
   border-bottom: solid 2px #198754;
   width: 80%; }
 
-.nosotros .conteiner-nosotros .nosotros-info {
+.nosotros .container-nosotros .nosotros-info {
   display: flex;
   justify-content: center;
   width: 100%; }
 
-.nosotros .conteiner-nosotros .text {
+.nosotros .container-nosotros .logo {
+  width: 10%;
   margin: .2rem; }
-  .nosotros .conteiner-nosotros .text span {
+
+.nosotros .container-nosotros .text {
+  margin: .2rem; }
+  .nosotros .container-nosotros .text span {
     font-family: 'Bebas Neue', cursive;
     color: #198754;
     font-size: large; }
-
-.nosotros .conteiner-nosotros .logo {
-  width: 10%;
-  margin: .2rem; }
 
 .container-contacto h1 {
   margin-left: 3rem;
   border-bottom: solid 2px #198754;
   width: 80%; }
 
-.container-contacto .icons-2 {
-  width: 2.5rem;
-  height: 2.5rem; }
-
 .container-contacto .contact {
   display: flex;
   justify-content: flex start;
   margin-left: 3.2rem; }
 
+.container-contacto .icons-contact {
+  width: 2.5rem;
+  height: 2.5rem; }
+
 .container-contacto .container-form {
   display: block; }
-
-.container-contacto .form {
-  width: 100%;
-  display: grid;
-  justify-content: center;
-  padding: 1rem; }
-  .container-contacto .form .etiquetas-form {
-    display: block;
-    float: center; }
-  .container-contacto .form input {
-    width: 70%;
-    font-size: revert !important; }
-  .container-contacto .form .submit {
-    margin-top: .3rem;
-    cursor: pointer;
-    width: 70%;
-    font-size: revert !important; }
+  .container-contacto .container-form .form {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    padding: 1rem; }
+    .container-contacto .container-form .form .etiquetas-form {
+      display: block;
+      float: center; }
+    .container-contacto .container-form .form input {
+      width: 70%;
+      font-size: revert !important; }
+    .container-contacto .container-form .form .submit {
+      margin-top: .3rem;
+      cursor: pointer;
+      width: 70%;
+      font-size: revert !important; }
 
 .container-contacto iframe {
   width: 100%; }
+
+footer {
+  border-top: solid thick black; }
+
+body main .inicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+body main .inicio {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.inicio-productos .filtros-products {
+  box-shadow: -6px 6px 17px #c2b8b8, 6px -6px 17px #ecdfdf; }
+
+footer {
+  margin-top: 2rem; }
 
 @media (max-width: 900px) {
   .menu {
@@ -239,9 +288,6 @@ footer {
     flex-direction: column;
     align-content: center;
     flex-wrap: wrap; }
-  .uno {
-    display: block;
-    padding-left: 1.87rem !important; }
   .container-contact {
     margin-left: 0rem !important; }
   .contact {

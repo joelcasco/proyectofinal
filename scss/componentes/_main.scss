@@ -26,7 +26,7 @@ body{
             @extend %flex;
             height: 40rem;
             width: 100%;
-            background-image: url(/images/foto-3.webp);
+            background-image: url(../images/foto-3.webp);
             @extend %background;
         }
         .container-destacados{
@@ -41,9 +41,15 @@ body{
                 }
             }
         }
-        .carousel-second{
-            margin-bottom: 2rem;
-        }
+        .carousel-portada{
+            h2{
+                @include varios(flex, center);
+            }
+            .portada{
+                width: 38.75rem;
+                height: 37.5rem;
+            }
+        }      
         .grid-fixed{
             position: fixed;
             right: .2rem;
@@ -51,10 +57,6 @@ body{
             img{
                 width: 2.5rem;
             }
-        }
-        .portada{
-            width: 38.75rem;
-            height: 37.5rem;
         }
     }
 }

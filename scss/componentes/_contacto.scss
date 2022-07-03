@@ -5,35 +5,35 @@
         border-bottom: solid 2px $verde;
         width: 80%;  
     }
-    .icons-2{
-        @include icons(2.5rem, 2.5rem);
-    }
     .contact{
         @include varios(flex, flex start);
         margin-left: 3.2rem;
     }
+    .icons-contact{
+        @include icons(2.5rem, 2.5rem);
+    }
     .container-form{
         display: block;
-    }
-    .form{
-        width: 100%;
-        @include varios(grid, center);
-        padding: 1rem;
-        .etiquetas-form{
-            display: block;
-            float: center;
-        } 
-        input{
-            @include btn(70%);
-            font-size: revert !important;
+        .form{
+            width: 100%;
+            @include varios(grid, center);
+            padding: 1rem;
+            .etiquetas-form{
+                display: block;
+                float: center;
+            } 
+            input{
+                @include btn(70%);
+                font-size: revert !important;
+            }
+            .submit{
+                margin-top: .3rem;
+                cursor: pointer;
+                @include btn(70%);
+                font-size: revert !important;
+            }   
         }
-        .submit{
-            margin-top: .3rem;
-            cursor: pointer;
-            @include btn(70%);
-            font-size: revert !important;
-        }   
-    }
+    }   
     iframe{
         width: 100%;
     }

@@ -1,3 +1,5 @@
+@import '../base/extends';
+@import '../base/mixins';
 .inicio-productos{
     display: flex;
     .accordion-products{
@@ -17,8 +19,7 @@
     }
     .products-img{
         width: 80%;
-    }
-    
+    }    
     .conteiner-card{
         display: flex;
         flex-direction: column-reverse;
