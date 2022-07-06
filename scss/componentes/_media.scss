@@ -57,14 +57,11 @@
     }
     form{
         input{
-            @include btn(15rem !important);
+            @include btn(16rem !important);
         }
         .submit{
-            @include btn(15rem !important);
+            @include btn(16rem !important);
         }
-    }
-    .submit{
-        @include btn(15rem !important);
     }
     .inicio-productos{
         display: flex;

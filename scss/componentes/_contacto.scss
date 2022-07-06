@@ -1,13 +1,12 @@
 @import '../base/mixins';
 .container-contacto {
     h1{
-        margin-left: 3rem;
         border-bottom: solid 2px $verde;
         width: 80%;  
     }
     .contact{
         @include varios(flex, flex start);
-        margin-left: 3.2rem;
+        
     }
     .icons-contact{
         @include icons(2.5rem, 2.5rem);
@@ -34,7 +33,8 @@
             }   
         }
     }   
-    iframe{
-        width: 100%;
-    }
+
+}
+iframe{
+    width: 100%;
 }

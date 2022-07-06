@@ -28,7 +28,7 @@ footer{
         .container-icons{
             @include varios(flex, center);
             .icons{
-                width: $icons-medida;
+                width: 2rem;
             }
         }      
     }   
