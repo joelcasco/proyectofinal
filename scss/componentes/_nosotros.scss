@@ -8,10 +8,11 @@
     .container-nosotros{
         .nosotros-info{
             @include varios(flex, center);
+            flex-wrap: wrap;
             width: 100%;
         }
         .logo{
-            width: 4.3rem;
+            width: 9rem;
             
         }
         .text{

@@ -9,7 +9,14 @@ body{
     header{
         background-color: #212529;
     }
+    header{
+        img{
+            width: 2rem !important;
+            display: none;
+        }
+    }
     main{
+       
         .inicio{
             font-family: 'Bebas Neue', cursive;
             span{
